@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+    font-family: font-escrita;
+    src: url(../playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+
+#titulo{
+    color: #ffffffff;
+    font-family: font-escrita;
+    margin-left: 500px;
+}
+
+#apupu{
+    color: #fff;
+    font-family: font-escrita;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#foto1{
+    float: left;
+    margin-top: 50px;
+
+}
+
+#foto1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid #ffffffff 4px;
+}
+
+#foto2{
+    float: right;
+    margin-left: 650px;
+    margin-top: -250px;
+
+}
+
+#foto2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid #ffffffff 4px;
+}
+
+#legenda h1{
+        text-align: center;
+        margin-left: -350px;
+        color: #ffffffff;
+}
+
+#legenda p{
+    color: #ffffffff;
+}
+

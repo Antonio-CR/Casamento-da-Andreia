@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="Beleza.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script>
+       var confirmacao = confirm("Recebeu um convite físico?");
+        
+       if (!confirmacao) {
+          
+           window.location.href = 'pagina-de-negacao.html';
+       } else {
+
+          prompt("Insira o código de convite")
+           
+       } 
+     
+
+
+    </script>
+</head>
+<body>
+    <header id="cabecalho" class="container">
+        <div class="row">
+            <span><a href="Casamento2.html">Home</a></span>
+            <span><a href="Casamento religioso.html">Casamento Religioso</a></span>
+            <span><a href="Conservatória.html">Casamento civil</a></span> 
+            <span><a href="Copo de Água.html">Festa</a></span>
+            <span><a href="Nossa história.html">Nossa história</a></span>
+            <span><a href="detalhes.html">Detalhes</a></span>
+        </div>
+    </header>
+
+    <form action="mailto:chimahembo@gmail.com">
+        <fieldset id="identicador" class="form-group">
+            <h1>Registro dos convidados do casamento civil </h1> 
+            <p><label for="nome">Nome:</label> <input type="text" id="nome" placeholder="Nome completo" class="form-control"></p>
+            <p><label for="numero">Número de telefone:</label> <input type="text" id="numero" min="9" max="9" placeholder="Número de telefone" class="form-control"></p>
+            <p><label for="local">Endereço:</label> <input type="text" id="local" placeholder="Endereço atual" class="form-control"></p>
+            <p><label for="qtd">Nº de pessoas no convite</label> <input type="number" id="qtd" value="2" min="1" max="2" class="form-control"></p>
+            <p>Mensagem: <textarea name="tMensagem" id="dMensagem" cols="35" rows="2" placeholder="Deixe aqui a sua mensagem" class="form-control"></textarea></p>
+        </fieldset>
+
+        <input type="submit" name="botao"  id="enviar" class="btn btn-info">
+    </form>
+
+    <footer id="rodape" class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contato</h3>
+                <p>Telefone: 940960830</p>
+                <p>Email: chimahembo@gmail.com</p>
+            </div>
+            
+            <div class="col-md-6">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <p>&copy; 2023 Casamento da Andreia. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

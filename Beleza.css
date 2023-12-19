@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: font-escrita;
+    src: url(../playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../Imagens/abraço.jpg) no-repeat;
+    background-size: 100%;
+    height: 1000px;
+
+   
+
+}
+
+#conteudo{
+    margin-left: 400px;
+    margin-top: 300px;
+   
+    
+
+}
+
+#nomes h1{
+    font-family: font-escrita;
+    color: #e4e4bc;
+    font-size: 50px;
+   
+
+    
+}
+
+#nomes h2{
+    font-family: font-escrita;
+    color: #e4e4bc;
+    font-size: 40px;
+
+    
+}
+
+#noivos h1{
+    color: #e4e4bc;
+    font-size: 89px;
+    margin-left: -100px;
+    margin-top: -20px;
+    
+}
+
+#data p{
+    color: #f9f895;
+    margin-top: -1px;
+    text-align: left;
+    font-size: 15pt;
+   
+}
+
+#botao {
+    border: solid #24022e 1px;
+    background: rgba(82, 5, 104, 0.253);
+    margin-left: 100px;
+    margin-top: 50px;
+    /*border: #710590 solid 2px;*/
+    
+}
+@keyframes anima{
+    0%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+#botao:hover{
+    animation-name: anima;
+    animation-duration: 120s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: inherit;
+    animation-direction: alternate-reverse ;
+}
+
+#botao:hover{
+    background: #FFF5E1;
+}
+
+#botao a{
+    color: #E6E6FA;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+#botao a:hover{
+    color: #bdbce4;
+}
+#cabecalho{
+    background: #ffffffff;
+    height: 50px;
+}
+
+#cabecalho div{
+    color: #e4e4bc;
+    
+  
+}
+
+#cabecalho div a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: font-escrita;
+    font-size: 18px;
+
+}
+
+#cabecalho div a:hover{
+    color:#e4e4bc;;
+}
+
+#escrita{
+    margin-left: 500px;
+    margin-top: 150px;
+
+}
+
+#escrita div{
+    font-family: font-escrita;
+    background: rgba(243, 232, 140, 0.2);
+    width: 400px;
+    border: solid #e4e4bc 1px;
+
+}
+
+#escrita div h4{
+    font-size: 40px;
+    color: #e4e4bc;
+   
+}
+
+#escrita div p{
+    font-size: 20px;
+    color: #e6e600;
+    margin-top: -20px;
+    margin-left: 30px;
+   
+}
+
+#identicador{
+    margin-top: 80px;
+    margin-left: 450px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+#identicador p, h1{
+color: #ebeb8c ;
+
+
+}
+ #identificador h1{
+    font-size: 10px;
+    text-align: center;
+   
+}
+
+#enviar{
+    margin-left: 550px;
+    margin-top: 20px; 
+}
+
+.dica h4{
+    padding: 5px;
+}
+
+#rodape {
+   margin-top: 400px;
+    color: #fff; 
+    padding: 10px 0; /* Espaçamento interno superior e inferior */
+}
+
+#rodape h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#rodape p, #rodape ul {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#rodape ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#rodape ul li {
+    margin-bottom: 5px;
+}
+
+#rodape ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#rodape ul li a:hover {
+    text-decoration: underline;
+    color: #ADD8E6;
+}
+
+#rodape hr {
+    border-color: #666;
+    margin: 20px 0;
+}
+
+#rodape p.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
+#negacao{
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+
+.alert{
+    margin-top: 50px;
+}
+
